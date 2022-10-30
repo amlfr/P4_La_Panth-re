@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpeg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1039,31 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*Ajouts Projet OC*/
+
+#service-heading {
+    width: 62%;
+    margin: auto;
+    letter-spacing: 0px;
+}
+
+#quote {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 20px;
+    font-weight: 300;
+    width: 82%;
+    margin: auto;
+}
+
+#author {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+#portfolio-heading {
+    width: 45%;
+    margin: auto;
 }
